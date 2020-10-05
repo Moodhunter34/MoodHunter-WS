@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+@import url('https://fonts.googleapis.com/css?family=Galindo');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+body { margin:5px; background-color: white; }
+
+#mainbody {
+  position: relative;
+  
+}
+.social-media {
+	position:absolute;
+	top: 1%;
+	right: 2%;
+}
+
+
+
+#header {
+	text-align: center;
+	color: #bfbfbf;
+	text-shadow: 2px 1px ;
+	font-size: 20px;
+	
+}
+
+#logo {
+	position:absolute;
+	top: 2%;
+	right: 35%;
+		
+}
+
+
+.pic1 {
+	background-image: url("night.jpg");
+	height: 860px;
+	background-repeat:no-repeat;
+    background-position:50% 50%;  
+	
+}
+
+p {
+	color:white;
+	position: absolute;
+	font-size: 290%;
+	top: 31%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+	font-family: 'Assistant', sans-serif;
+	text-shadow: 2px 1px
+	
+}
+
+.fadeInUp p {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+
+/* Navigation menu style */
+
+.nav {
+	position:absolute;
+	top: 14%;
+	right:37%;
+	font-family: 'Arvo', serif;
+	
+}
+
+.nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    background: #6B8291;
+}
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+.nav ul:after {
+    clear:both;
+}
+.nav ul > li {
+    float:left;
+    position:relative;
+}
+.nav a {
+    display:block;
+    padding:10px 20px;
+    line-height:1.2em;
+    color:#fff;
+    border-left:1px solid #595959;
+	text-decoration: none; !important
+}
+.nav a:hover {
+    background:#595959;
+}
+.nav li ul {
+    background:#273754;
+}
+.nav li ul li {
+    width:150px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+}
+
+
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+.moodytext {
+	font-size: 23px;
+	text-align: center;
+	font-family: 'Karma', serif;
+}
+
+#player {
+	margin: 4%;
+	
+}
+
+.iplayer {
+	display: inline-block;
+	width: 40%;
+	height: 420px;
+	margin-left: 0%;
+	margin-right: auto;
+}
+
+
+	
+.darkmode{
+  background-color: #373a3c;
+  color: black;
+  transition: background-color 1.5s;
+}
+
+
+
+#dark {
+    display: absolute;
+	vertical-align: middle;
+	margin-left: 47%;
+	height: auto;
+	border-radius: 80px;
+	font-family: 'Baloo Chettan', cursive;
+}
+	
+	
+	
