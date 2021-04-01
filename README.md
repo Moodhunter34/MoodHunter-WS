@@ -1,0 +1,3 @@
+# MoodHunter-WS
+
+University Project 
